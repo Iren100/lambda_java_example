@@ -1,4 +1,3 @@
-
 package doc_examples.lambda_java_example;
 
 import java.util.Scanner;
@@ -87,6 +86,7 @@ public class App
     			else return 0;
     		}  		
     	} 			
-    	return 1;  	
+    	if (mas.isEmpty())  return 1; else return 0; 	
     }
 }
+
